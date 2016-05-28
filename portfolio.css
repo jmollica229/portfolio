@@ -1,5 +1,40 @@
 *{
 	margin: 0px auto;
 	padding: 0px;
-	font-family: serif;
+	font-family: "georgia", serif;
 }
+
+.container{
+	width: 900px;
+	border: 3px dotted green;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+	img, p{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+		img{
+			margin-top: 10px;
+			width: 200px;
+			height: 225px;
+		}
+
+		p{
+			width: 600px;
+			margin: 80px 0px 0px 40px;
+		}
+
+	h2{
+		margin: 20px 0px 10px 20px;
+	}
+
+		ul{
+			margin-bottom: 20px;
+		}
+			li{
+				margin-left: 20px;
+			}
+
