@@ -10,31 +10,48 @@
 	margin-top: 20px;
 	padding: 20px;
 }
+	h1{
+		margin-left: 350px;
+	}
 
-	img, p{
+	.headshot, .intro{
 		display: inline-block;
 		vertical-align: top;
 	}
 
-		img{
+		.headshot{
 			margin-top: 10px;
 			width: 200px;
 			height: 225px;
 		}
 
-		p{
+		.intro{
 			width: 600px;
-			margin: 80px 0px 0px 40px;
+			margin: 50px 0px 0px 40px;
 		}
 
-	h2{
-		margin: 20px 0px 10px 20px;
+
+	.main{
+		background-image:url('background.png');
+		width: 900px;
+		height: 504px;
+		margin-top: 20px;
+		padding-top: 20px;
 	}
 
-		ul{
-			margin-bottom: 20px;
+	h2{
+		margin: 20px 0px 0px 20px;
+		color: white;
+	}
+
+		.links, .project_name, a{
+			margin-left: 30px;
+			color: white;
 		}
-			li{
-				margin-left: 20px;
-			}
+
+		.projects{
+			margin-left: 10px;
+			color: white;
+		}
+			
 
